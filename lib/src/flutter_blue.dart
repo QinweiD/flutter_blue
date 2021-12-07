@@ -138,7 +138,7 @@ class FlutterBlue {
       } else {
         list.add(result);
       }
-      _scanResults.add(list);
+      _scanResults.add([result]);
       return result;
     });
   }
